@@ -1,5 +1,17 @@
+import Image from "next/image";
+
 function Home() {
-  return <h1>Te amo, minha 🐝</h1>;
+  return (
+    <Image
+      src="/images/site_em_construcao.png"
+      width={1260}
+      height={720}
+      style={{
+        margin: "auto",
+        display: "block",
+      }}
+    />
+  );
 }
 
 export default Home;
